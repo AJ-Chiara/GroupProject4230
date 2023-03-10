@@ -19,3 +19,6 @@ gravity_direction = 270
 if(lives = 0){
 	instance_destroy()
 }
+if(score>=50){
+	room_goto(EndMenuWin)
+}
